@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+</head>
+<body>
+    <header>
+        <div class="navbar container">
+            <div class="logo">
+                <a href="#">
+                    <img src="Images/logo.png" alt="Logo">
+                </a>
+                <button class="menu-btn" onclick="menuOpen()"><i class="las la-bars"></i></button>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Our Menu</a></li>
+                    <li><a href="#">Promo</a></li>
+                    <li><a href="#">Order</a></li>
+                    <li><a href="#">Delivery</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="hero">
+            <h1>Healthy Food Restaurant</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <img src="images/white-dots.png" class="header-dots">
+    </header>
+    <!-- menu -->
+    <section class="menu-section">
+        <h2 class="menu-title">POPULAR MENU</h2>
+        <div class="container row">
+            <div class="menu-items">
+                <div class="item-img">
+                    <img src="images/card1.jpg">
+                </div>
+                <div class="item-details">
+                    <h2>Noodles</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo vel exercitationem...</p>
+                    <h2>$20</h2>
+                </div>
+            </div>
+            <div class="menu-items">
+                <div class="item-img">
+                    <img src="images/card2.jpg">
+                </div>
+                <div class="item-details">
+                    <h2>Noodles</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo vel exercitationem...</p>
+                    <h2>$20</h2>
+                </div>
+            </div>
+            <div class="menu-items">
+                <div class="item-img">
+                    <img src="images/card1.jpg">
+                </div>
+                <div class="item-details">
+                    <h2>Noodles</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo vel exercitationem...</p>
+                    <h2>$20</h2>
+                </div>
+            </div>
+        </div>
+        <div class="showbtn">
+            <a href="#" class="btn-link">SHOW MORE</a>
+        </div>
+    </section>
+    <!-- promo section -->
+    <section class="promo">
+        <div class="row">
+            <div class="promo-img">
+                <img src="images/discount.jpg" alt="discount-img">
+            </div>
+            <div class="promo-section">
+                <h3>Discount Up to 50% All Menu</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae, sed labore. Repellat iure asperiores deleniti, voluptates suscipit sunt, adipisci esse libero quod illum corporis rem labore iusto quaerat omnis et!</p>
+                <div class="readbtn">
+                    <a href="#" class="btn-link">READ MORE</a>
+                </div>
+            </div>
+        </div>
+        <div class="row row-reverse">
+            <div class="promo-section">
+                <h3>January's Promo: Buy 1 Get 1 Free!</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae, sed labore. Repellat iure asperiores deleniti, voluptates suscipit sunt, adipisci esse libero quod illum corporis rem labore iusto quaerat omnis et!</p>
+                <div class="readbtn">
+                    <a href="#" class="btn-link">READ MORE</a>
+                </div>
+            </div>
+            <div class="promo-img">
+                <img src="images/promo.jpg" alt="promo-img">
+            </div>
+        </div>
+    </section>
+    <!-- orderprocessing -->
+    <section class="orderProcess">
+        <h2>HOW TO ORDER</h2>
+        <div class="row container">
+            <div class="box">
+                <p class="num">
+                    01
+                </p>
+                <h3 class="title">
+                    Order
+                </h3>
+                <p class="orderDetails">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo ducimus architecto dolore quis veniam est nulla odit eaque! Repudiandae harum quo.
+                </p>
+            </div>
+            <div class="box">
+                <p class="num">
+                    02
+                </p>
+                <h3 class="title">
+                    Choose Menu
+                </h3>
+                <p class="orderDetails">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo ducimus architecto dolore quis veniam est nulla odit eaque! Repudiandae harum quo.
+                </p>
+            </div>
+            <div class="box">
+                <p class="num">
+                    03
+                </p>
+                <h3 class="title">
+                    Delivery
+                </h3>
+                <p class="orderDetails">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo ducimus architecto dolore quis veniam est nulla odit eaque! Repudiandae harum quo.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- DELIVERY-SECTION -->
+    <section class="delivery">
+        <img src="images/white-dots.png">
+        <div class="row">
+            <h2>Free Delivery</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem consequatur iusto placeat a atque maiores veniam temporibus ea. Pariatur ipsa perspiciatis esse itaque possimus sed eius odio obcaecati quia tempore.</p>
+            <div class="voucherbtn">
+                <a href="#" class="btn-link">GET VOUCHER</a>
+            </div>
+        </div>
+    </section>
+    <!-- social -->
+    <section class="quote">
+        <div class="container">
+            <i class="las la-quote-left"></i>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus quam voluptate est molestiae adipisci modi ipsum vel mollitia nesciunt. Odio amet nobis unde beatae odit hic.</p>
+            <p class="name">Agus Waiters</p>
+            <div class="social-links">
+                <a href="#"><i class="lab la-facebook-f icon"></i></a>
+                <a href="#"><i class="lab la-twitter icon"></i></a>
+                <a href="#"><i class="lab la-instagram icon"></i></a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <img src="images/blue-dots.png">
+        <div class="row container">
+            <div class="left">
+                <h3>ABOUT</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error in quia obcaecati eius! Quisquam, praesentium voluptas labore unde, voluptate perspiciatis placeat rem laudantium nulla nisi, impedit fugit illo repellendus optio?</p>
+            </div>
+            <div class="right">
+                <div class="footlink">
+                    <p class="infolink">INFO</p>
+                    <ul>
+                        <li><a href="#">Team</a></li>
+                        <li><a href="#">Join Us</a></li>
+                        <li><a href="#">Ethic</a></li>
+                        <li><a href="#">Goals</a></li>
+                    </ul>
+                </div>
+                <div class="footlink">
+                    <p class="infolink">INFO</p>
+                    <ul>
+                        <li><a href="#">Team</a></li>
+                        <li><a href="#">Join Us</a></li>
+                        <li><a href="#">Ethic</a></li>
+                        <li><a href="#">Goals</a></li>
+                    </ul>
+                </div>
+                <div class="footlink">
+                    <p class="infolink">INFO</p>
+                    <ul>
+                        <li><a href="#">Team</a></li>
+                        <li><a href="#">Join Us</a></li>
+                        <li><a href="#">Ethic</a></li>
+                        <li><a href="#">Goals</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        function menuOpen(){
+            let navbar = document.querySelector('nav');
+            if(navbar.style.display == 'none'){
+                navbar.style.display = 'block';
+            }
+            else{
+                navbar.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
