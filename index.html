@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
 </head>
 <body>
-    <header>
+    <header id="header">
         <div class="navbar container">
             <div class="logo">
                 <a href="#">
@@ -19,11 +19,11 @@
             </div>
             <nav>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Our Menu</a></li>
-                    <li><a href="#">Promo</a></li>
-                    <li><a href="#">Order</a></li>
-                    <li><a href="#">Delivery</a></li>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#menu">Our Menu</a></li>
+                    <li><a href="#promo">Promo</a></li>
+                    <li><a href="#order">Order</a></li>
+                    <li><a href="#delivery">Delivery</a></li>
                 </ul>
             </nav>
         </div>
@@ -34,7 +34,7 @@
         <img src="images/white-dots.png" class="header-dots" alt="dots">
     </header>
     <!-- menu -->
-    <section class="menu-section">
+    <section class="menu-section" id="menu">
         <h2 class="menu-title">POPULAR MENU</h2>
         <div class="container row">
             <div class="menu-items">
@@ -73,7 +73,7 @@
         </div>
     </section>
     <!-- promo section -->
-    <section class="promo">
+    <section class="promo" id="promo">
         <div class="row">
             <div class="promo-img">
                 <img src="images/discount.jpg" alt="discount">
@@ -100,7 +100,7 @@
         </div>
     </section>
     <!-- orderprocessing -->
-    <section class="orderProcess">
+    <section class="orderProcess" id="order">
         <h2>HOW TO ORDER</h2>
         <div class="row container">
             <div class="box">
@@ -139,7 +139,7 @@
         </div>
     </section>
     <!-- DELIVERY-SECTION -->
-    <section class="delivery">
+    <section class="delivery" id="delivery">
         <img src="images/white-dots.png" alt="dots">
         <div class="row">
             <h2>Free Delivery</h2>
