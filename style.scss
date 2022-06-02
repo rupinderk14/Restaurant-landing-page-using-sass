@@ -29,7 +29,7 @@ $blue: #7F7FD5;
 // header
 header{
     height: 100vh;
-    background-image: url(images/header-bg.png);
+    background-image: url(Images/header-bg.png);
     background-size: cover;
     .navbar{
         display: flex;
@@ -275,7 +275,7 @@ header{
 // footer
 footer{
     position: relative;
-   background-image: url(images/footer-bg.png);
+   background-image: url(Images/footer-bg.png);
    background-size: cover;
    img{
        position: absolute;
